@@ -9,7 +9,6 @@ using namespace std;
 class Book {
     string isbn, title, author, edition, publication, genre;
     bool isIssued;
-
 public:
     // Constructor to initialize a book object
     Book(string a, string b, string c, string d, string e, string f)
